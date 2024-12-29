@@ -1,0 +1,19 @@
+@import './base.css';
+
+:root {
+  --light-purple: #be80ff;
+  --dark-purple: #6325ff;
+  --yellow: #ffaf13;
+  --grey: #999999;
+  --font-text: 'Roboto', sans-serif;
+  --font-title: 'Merriweather', serif;
+}
+
+body {
+  font-family: var(--font-text);
+  background-color: #f3f5f5;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
